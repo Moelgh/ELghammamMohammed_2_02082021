@@ -1,0 +1,72 @@
+.footer {
+    background-color: var(--inactive);
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 100%;
+    width: 1500px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 30px;
+    line-height: 30px;
+}
+
+.footer-column a {
+    color: #000;
+    text-decoration: none;
+    background: linear-gradient(
+            to top,
+            rgba(0, 101, 252, 0.8) 0%,
+            rgba(0, 101, 252, 0.8) 10%,
+            transparent 10.01%
+    )
+    no-repeat left bottom / 0 100%;
+    transition: background-size 0.5s;
+    width: fit-content;
+}
+
+.footer-column a:hover {
+    color: #000;
+    text-decoration: none;
+    background-size: 80px 100%;
+}
+
+
+:root {
+    --primary: #0065fc;
+    --secondary: #deebff;
+    --inactive: #f2f2f2;
+    --background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+::selection {
+    color: #fff;
+    background: var(--primary);
+}
+::-moz-selection { 
+    color: #fff;
+    background: var(--primary);
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+}
