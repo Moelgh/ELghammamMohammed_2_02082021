@@ -230,17 +230,17 @@ main {
     margin: 6px 0 0 8px;
 }
 
-.heb-card-rate {
+.heb-rate {
     padding: 0;
     margin: 6px 0 0 8px;
     color:rgb(180, 180, 180);
 }
 
-.heb-card-rate[data-note="1"] i:nth-child(1),
-.lheb-card-rate[data-note="2"] i:nth-child(-n + 2),
-.heb-card-rate[data-note="3"] i:nth-child(-n + 3),
-.heb-card-rate[data-note="4"] i:nth-child(-n + 4),
-.heb-card-rate[data-note="5"] i:nth-child(-n + 5) { color: var(--primary); }
+.heb-rate[data-note="1"] i:nth-child(1),
+.lheb-rate[data-note="2"] i:nth-child(-n + 2),
+.heb-rate[data-note="3"] i:nth-child(-n + 3),
+.heb-rate[data-note="4"] i:nth-child(-n + 4),
+.heb-rate[data-note="5"] i:nth-child(-n + 5) { color: var(--primary); }
 
 
 
