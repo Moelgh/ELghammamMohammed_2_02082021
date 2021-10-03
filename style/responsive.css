@@ -1,0 +1,240 @@
+@media (min-width: 872px) and (max-width: 1160px){
+    .hebergement{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    main{
+        height: auto;
+    }
+    .activites{
+        height: 1060px;
+    }
+    .hebergement aside{
+        width: 100%;
+        height: 250px;
+    }
+    .hebergement aside div{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px 0px 40px;
+    }
+    .hebergement aside .populaire{
+        all: unset;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 40px 40px 0 40px;
+
+    }
+    .hebergement aside div article{
+        width: 29.65%;
+        padding: 4px;
+        height: 150px;
+    }
+    .hebergement aside div article img{
+        height: 150px;
+    }
+    .hebergement aside div article div{
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .hebergement section{
+        width: auto;
+    }
+    .blocactivites{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 930px;
+    }
+    .bloc1, .bloc2{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .filtres div:nth-child(5)
+    {
+        margin-left: 77px;
+    }
+}
+@media all and (max-width: 871px){
+.hebergement{
+    flex-direction: column-reverse;
+    margin: 0;
+}
+main{
+    height: auto;
+}
+.activites{
+    height: 1060px;
+}
+.hebergement aside{
+    width: 100%;
+}
+.hebergement section{
+    width: auto;
+}
+.blocactivites{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 930px;
+}
+.bloc1, .bloc2{
+    width: 100%;
+    justify-content: space-between;
+}
+.blocheb article img{
+    object-fit: fill;
+}
+input{
+    width: 75%;
+}
+.filtres div:nth-child(4)
+{
+    margin-left: 77px;
+}
+}
+@media screen and (max-width: 610px) {
+.hebergement section{
+    padding: 30px;
+}
+.hebergement section .blocheb div{
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+    height: 650px;
+    width: 100%;
+}
+.hebergement section .blocheb{
+    height: 1330px;
+    width: 100%;
+}
+.hebergement section .blocheb div article{
+    width: auto;
+}
+.option{
+    height: 500px;
+}
+.filtres{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.filtres div{
+    margin: 0;
+    font-size: 0.9em;
+}
+.filtres div span{
+    margin-left: 11px;
+}
+.activites{
+    height: 1360px;
+    margin: 45px 30px 0 30px;
+}
+.blocactivites{
+    height: 1275px;
+    flex-direction: column;
+}
+.bloc1, .bloc2{
+    height: 622px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grandecarte{
+    height: 190px;
+}
+.grandecarte img, .doublecartepartie1 img, .doublecartepartie2 img, .doublecarte2partie1 img, .doublecarte2partie2 img{
+    height: 74%;
+}
+.doublecarte{
+    height: 405px;
+    justify-content: space-between;
+}
+.doublecarte div{
+    height: 190px;
+}
+.blocactivites div article{
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer section{
+    width: 80%;
+}
+.filtres div:nth-child(4)
+{
+    margin-left: 0px;
+}
+button span{
+    display: none;
+}
+.fa-search{
+    display: inline;
+}
+.map{
+    height: 50px;
+}
+button{
+    width: 55px;
+    border: none;
+    height: 50px;
+    border-radius: 16px 16px 16px 16px;
+}
+input{
+    height: 50px;
+    border: none;
+}
+form{
+    border: 2px solid #F2F2F2;
+    border-radius: 16px 16px 16px 16px;
+    border-right: none;
+    border-left: none;
+    height: 50px;
+    margin: 1.1em 0 1.3em 0;
+}
+header {
+    display: block;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+    margin-top: 25px;
+}
+header nav a {
+    padding: 0 0 20px 0;
+    width: 50%;
+    border-bottom: 3px solid #F2F2F2;
+    text-align: center;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid #0065FC;
+    border-top: unset;
+    padding-top: 0;
+}
+.lien_inscrire {
+    all: unset;
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    width: unset;
+    color: #0065FC;
+    font-weight: bold;
+}
+.lien_inscrire:hover{
+    all: unset;
+    border-top: none;
+    color: #0065FC;
+    font-weight: bold;
+    position: absolute;
+    top: 19px;
+    right: 0px;
+    width: unset;
+}
+.option h1{
+    margin-top: 1.8em;
+}
+}

@@ -1,0 +1,41 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    max-width: 1440px;
+    width: auto;
+    margin: 0 auto;
+    font-size: 0.95em;
+  }
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    margin: 0 3.8% 0 3.8%;
+}
+nav{
+   margin-top: 14px;
+   position: relative;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding: 2em;
+    font-weight: 500;
+}
+nav a:hover{
+    border-top: 3px solid #0065FC;
+    padding-top: 48px;
+    color: #0065FC;
+}
+nav a:visited{
+    text-decoration: none;
+}
+.lien_inscrire{
+    color: #0065FC;
+    font-weight: bold;
+}
+.lien_inscrire:hover{
+    border-top: none;
+}
