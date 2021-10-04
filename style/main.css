@@ -205,8 +205,6 @@ button:hover{
     transition: transform .2s;
 }
 .hebergement section .blocheb div article:hover {
-    -ms-transform: scale(1.019); 
-    -webkit-transform: scale(1.019); 
     transform: scale(1.019); 
   }
 .hebergement section .blocheb div article:active{
@@ -264,8 +262,6 @@ aside div{
     padding: 4px 30px 5px 30px;
 }
 aside div article:hover {
-    -ms-transform: scale(1.019); 
-    -webkit-transform: scale(1.019); 
     transform: scale(1.019); 
 }
 aside div article:active{
@@ -381,8 +377,6 @@ aside div article div span{
     border-radius: 15px;
 }
 .grandecarte:hover, .doublecartepartie1:hover, .doublecartepartie2:hover, .doublecarte2partie1:hover, .doublecarte2partie2:hover{
-    -ms-transform: scale(1.019); 
-    -webkit-transform: scale(1.019); 
     transform: scale(1.019); 
     cursor: pointer;
 }
